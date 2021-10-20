@@ -1,0 +1,25 @@
+{
+  "name": "cientifico",
+  "version": "1.0.0",
+  "description": "sigle page application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "dev": "webpack --mode development"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "carlos",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "5.1.1",
+    "html-webpack-plugin": "^5.4.0",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
